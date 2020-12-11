@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.navbar{
+    background-color: #fbf6f0;
+    height: 60px;
+
+}
+.title-brand{
+    background: -webkit-linear-gradient(#ff0b30, #fd3a69);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 1.7rem;
+    padding-left: 20px;
+}
+.navbar-nav {
+    margin: 5px auto;
+}
+.nav-link{  
+ color: #133b5c;
+ font-size:1.2rem;
+ font-weight: 500;
+}
+.nav-item{
+    margin:3px 20px;
+}
+@media(width:1040px){
+}
