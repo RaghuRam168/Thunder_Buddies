@@ -28,7 +28,6 @@ body{
 }
   /* about */
   .About{  
-    padding-top: 5%;    
     margin-left: 7%;        
     text-align: center;
      }   
@@ -37,7 +36,7 @@ body{
     padding-top:70px;
  }
  .lead{
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     line-height: 2;
     font-weight: 400;
     color: #133b5c;
@@ -45,8 +44,8 @@ body{
 /* alert */
 .alert{
     text-align: center;
-    padding: 0;
     padding-top: 3px;
+    margin-bottom: 1px;
     background-color: rgb(149, 182, 182);
 }
 .alert-text{
@@ -58,3 +57,87 @@ body{
 color: #e20b3d;
 }
 
+.banner img{
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.places-container{
+    background-color: #f6f5f5;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 5% 10%;
+}
+.place-header{
+    color: #fecd1a;
+    
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.place-cards{
+    text-align: center;
+    background-color: #f4f4f4;
+    border: 1px solid green;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.place-cards:hover{
+    box-shadow: 0 0 0 1px;
+    background-color: #fff;
+}
+.place-cards img{
+    padding: 1px;
+    height: 30vh;
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    object-fit: cover;
+}
+.card-heading{
+    display: flex;
+    justify-content: space-around;
+}
+.place-cards h2{
+    color: #214252;
+}
+
+.rating{
+    color: #fff;
+   
+    padding: 2px 15px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #9ddfd3;
+}
+.place-cards p{
+    color: #79a3b1;
+}
+
+
+.yoga img{
+    height: 90vh;
+    object-fit: cover;
+}
+.yoga h2{
+    color: #595b83;
+}
+.yoga p{
+    color: #8bcdcd;
+}
+.yoga-discription{
+    padding: 5% 5%;
+    text-align: center;
+}
+
+
+
+/* ...........testimonials .................*/
+
+
+.testimonials{
+    margin: 5% 10%;
+}
